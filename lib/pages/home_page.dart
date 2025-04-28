@@ -82,7 +82,7 @@ class _HomeContent extends StatelessWidget {
     return TextField(
       enabled: false,
       decoration: InputDecoration(
-        hintText: '搜索检测记录...',
+        hintText: '搜索',
         hintStyle: TextStyle(color: Colors.grey[500]),
         prefixIcon: Icon(Icons.search, color: Colors.grey[600]),
         border: OutlineInputBorder(
@@ -122,7 +122,7 @@ class _HomeContent extends StatelessWidget {
             const Icon(Icons.camera_enhance_rounded, size: 52),
             const SizedBox(height: 12),
             Text(
-              '立即拍照检测',
+              '拍照检测',
               style: TextStyle(
                 fontSize: 20,
                 fontWeight: FontWeight.w600,
@@ -176,7 +176,7 @@ class _HomeContent extends StatelessWidget {
           ),
           SizedBox(height: 15),
           Text(
-            '• 定期检查叶片背面虫害\n• 保持土壤pH值在6.0-6.5之间\n• 每周至少进行两次叶面检查\n• 发现黄化立即隔离处理',
+            '• xxxxxx\n• xxxxxx\n• xxxxxx\n• xxxxxx',
             style: TextStyle(
               fontSize: 14,
               height: 1.6,
