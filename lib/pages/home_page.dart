@@ -50,6 +50,8 @@ class _HomePageState extends State<HomePage> {
           label: '我的',
         ),
       ],
+
+
     );
   }
 }
@@ -160,7 +162,7 @@ class _HomeContent extends StatelessWidget {
         children: [
           Row(
             children: [
-              Icon(Icons.seasonal_auto, color: Colors.blueGrey),
+              Icon(Icons.lightbulb_outline, color: Colors.blueGrey),
               SizedBox(width: 10),
               Text(
                 '当季种植注意事项',
@@ -178,7 +180,7 @@ class _HomeContent extends StatelessWidget {
             style: TextStyle(
               fontSize: 14,
               height: 1.6,
-              color: Colors.blueGrey[700],
+              color: Colors.blueGrey,
             ),
           ),
         ],
